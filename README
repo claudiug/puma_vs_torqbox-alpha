@@ -1,0 +1,25 @@
+time: 5 minutes
+12 threads, 400 connections
+total: 442731 request in 5 minutes
+data read: 2.13GB
+724 request per seconds
+latency: 13ms
+timeout: 56638
+
+
+torquebox
+time: 30 seconds
+12 thread, 400 connections
+total: 13093 in 30 seconds
+data read: 65MB
+436.24 request per seconds
+latency: 553.14ms
+timeout: 2348
+
+time 5 minutes
+12 threads, 400 connections
+total: 547073 requests in 5.00m
+data read: 2.67GB
+1823.01 request per seconds
+latency: 154.63ms
+timeout: 23425
