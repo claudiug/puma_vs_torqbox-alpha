@@ -1,25 +1,43 @@
-time: 5 minutes
-12 threads, 400 connections
-total: 442731 request in 5 minutes
-data read: 2.13GB
-724 request per seconds
-latency: 13ms
-timeout: 56638
+------------------------------------------
+                                    TIME: 30 SEC
+                            12 Threads, 400 connections
 
+#Results#
 
-torquebox
-time: 30 seconds
-12 thread, 400 connections
-total: 13093 in 30 seconds
-data read: 65MB
-436.24 request per seconds
-latency: 553.14ms
-timeout: 2348
+total:
+    - puma: 11846
+    - torquebox: 13093
+data read:
+    - puma: 58 MB
+    - torquebox: 65MB
+requests per second:
+    - puma: 202
+    - torquebox: 436.24
+latency:
+    - puma: 46ms
+    - torquebox: 553.14ms
+timeout:
+    - puma: 5349
+    - torquebox: 2348
 
-time 5 minutes
-12 threads, 400 connections
-total: 547073 requests in 5.00m
-data read: 2.67GB
-1823.01 request per seconds
-latency: 154.63ms
-timeout: 23425
+--------------------------------------------
+                                        TIME: 5 MIN
+                                   12 Threads, 400 connections
+
+#Results#
+
+total:
+    - puma: 442731
+    - torquebox: 547073
+data read:
+    - puma: 2.13GB
+    - torquebox: 2.67GB
+requests per second:
+    - puma: 724
+    - torquebox: 1823.01
+latency:
+    - puma: 13ms
+    - torquebox: 154.63ms
+timeout:
+    - puma: 56638
+    - torquebox: 23425

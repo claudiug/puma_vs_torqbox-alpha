@@ -8,7 +8,7 @@ Cuba.use Rack::Protection
 Cuba.define do
   on get do
     on "hello" do
-      res.write MultiJson.load(File.open('products_berlin.json'))
+      res.write MultiJson.load(File.open('data.json'))
     end
 
     on root do
