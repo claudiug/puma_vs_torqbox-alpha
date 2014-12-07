@@ -1,0 +1,36 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    cuba (3.3.0)
+      rack
+    cuba-sugar (0.2.4)
+      cuba (~> 3.0)
+      json (~> 1.6.6)
+      rack_csrf (~> 2.4.0)
+    json (1.6.8-java)
+    multi_json (1.10.1)
+    rack (1.5.2)
+    rack-protection (1.5.3)
+      rack
+    rack_csrf (2.4.0)
+      rack (>= 0.9)
+    torquebox (4.0.0.alpha1-java)
+      torquebox-core (= 4.0.0.alpha1)
+      torquebox-scheduling (= 4.0.0.alpha1)
+      torquebox-web (= 4.0.0.alpha1)
+    torquebox-core (4.0.0.alpha1-java)
+    torquebox-scheduling (4.0.0.alpha1-java)
+      torquebox-core (= 4.0.0.alpha1)
+    torquebox-web (4.0.0.alpha1-java)
+      rack (>= 1.4.0, < 2.0)
+      torquebox-core (= 4.0.0.alpha1)
+
+PLATFORMS
+  java
+
+DEPENDENCIES
+  cuba
+  cuba-sugar
+  multi_json
+  rack-protection
+  torquebox (= 4.0.0.alpha1)
